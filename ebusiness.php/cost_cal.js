@@ -1,30 +1,32 @@
-/* global */
+/* global $ */
 
 
 
-Function calcsub(){
+Function calcsub() {
     
-    if(doument.getElementarybyid("saleforce").checked) {
+    if(doument.getElementById("saleforce").checked) {
         argsubtotal = 100;
     }
-    else
+    else {
     argsubtotal = 300;
-    dispaly(argsybtotal);
-}
-
-
-function display(parst){
+    }
     
-    document.getElementById("subtotal").value =parm1;
-     document.getElementById("total").value =parm1;
+    dispaly(argsubtotal);
+}
+
+
+function display(parm1){
+    
+    document.getElementById("subtotal").value = parm1;
+     document.getElementById("total").value = parm1;
      
-     enablebtnprocced();
+     enablebtnproceed();
 }
 
-function enablebtnprocced(){
-    $("btnprocced")prop("disabled" , false);
+function enablebtnproceed(){
+    $("#btnprocced")prop("disabled" , false);
 }
 
-function enablebtnprocced(){
-    $("btnprocced")prop("disabled" , true);
+function enablebtnproced(){
+    $("#btnprocced")prop("disabled" , true);
 }
