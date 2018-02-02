@@ -1,13 +1,20 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+    background : url("http://www.cpusa.org/wp-content/uploads/2016/04/socialism-in-the-usa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background : url(http://famousdestinations.in/wp-content/uploads/2017/04/Cape-Town-South-Africa-Famous-Destinations-1070x732.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background : url("https://media.cntraveler.com/photos/599f4ecc9e921575fb811e9a/master/w_775,c_limit/Uluru-Ayers-Rock-GettyImages-149271905.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section{
