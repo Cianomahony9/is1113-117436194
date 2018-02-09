@@ -14,12 +14,11 @@ function validateDetails(){
 }
 else{
     enablebtnPurchase();
-    console.log("hello");
        }
        
 }
 
-function enablebtnPurchase() {
+function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled',false);
 }
 function disablebtnPurchase() {
