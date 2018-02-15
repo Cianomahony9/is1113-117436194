@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+// Start the Session
+session_start();
+?>
+<!DOCTYPE HTML>
+
+
+
 <html>
     <head>
         <title>Enter Details</title>
@@ -20,6 +27,12 @@
         
         <br/>
         <button onclick="validateDetails()">Validate</button>
+        
+        
+        <?php
+        //Start the Session
+        $__SESSION["total"] = $_POST["total"];
+        ?>
         
         
         <script type="text/javascript"src="ebus2_validator.js"></script>
