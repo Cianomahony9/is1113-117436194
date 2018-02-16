@@ -17,7 +17,7 @@
         
         <br/>
         
-        <form method="POST" action="Ebus2.php">
+        <form method="POST" action="ebus2.php">
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onclick="disablebtnProceed()"/>
                 salesforce @ $100
@@ -54,7 +54,7 @@
        <br/>
        
         <button onclick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php">Clear Choice</a>
+        <a role="button" href="ebus1.php">Clear Choice</a>
        
         </body>
     
