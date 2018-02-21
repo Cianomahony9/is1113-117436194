@@ -18,6 +18,14 @@
         <br/>
         
         <form method="POST" action="ebus2.php">
+            
+            <label for "gmail">
+             <input type="radio" id="gmail" name "product" onclick="disablebtnProceed()"/>
+             gmail @ $400
+            </label>
+            
+            <br/>
+            
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onclick="disablebtnProceed()"/>
                 salesforce @ $100
@@ -29,6 +37,15 @@
                 <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
                 AWS @ 300$
             </label>
+            
+            <label for="cloud 9">
+                <input type="radio" id="cloud 9" name="product" onclick="disablebtnProceed()"/>
+                cloud 9 @ $200
+            </label>
+                
+                
+            
+            
             
             <br/>
             <br/>

@@ -51,17 +51,13 @@ ul li a:hover{
 }
 
 
-.centre {
-    width:90%;
-    background-position:center;
-    background-attachment: fixed;
     
-}
+
+.ucc-icon{
+position: absolute;    
+top: 40%;
+left:40%;
+right:40%;
+bottom:40%;
     
-.cloud {
-    background-repeat:no-repeat;
-    background-size: cover; 
- background-image: url("http://www.montyshomewatch.com/_assets/img/focusit-blog/benefits-of-cloud-based-loan-servicing.jpg");
-
-
 }
