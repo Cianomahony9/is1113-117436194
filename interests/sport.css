@@ -1,0 +1,82 @@
+*{ margin:0;
+    
+}
+
+.mainheading{
+    text-align: center;
+    position: relative;
+    left: 10%;
+    color: white;
+}
+
+
+
+.sports {
+    width:100%;
+    height:100%;
+    z-index:1;
+    position:absolute;
+}
+
+
+
+
+#rugby{
+      position:absolute;
+      z-index:2;
+      left:30%;
+      top:20%;
+      color:white;
+     width:30%;
+     transition: all 3.5s ease;
+}
+
+#rugby img{
+    width:100%;
+    height:100%;
+}
+
+#GAA{
+    position: absolute;
+    z-index:3;
+    left:-30%;
+    top:20%;
+    color:white;
+    width: 30%;
+    transition: all 3.5s ease;
+}
+
+#GAA img{
+    width: 100%;
+    height:100%;
+}
+
+#Australian{
+    position: absolute;
+    z-index: 4;
+    left:-60%;
+    top:20%;
+    color: white;
+    transition: all 3.5s ease;
+    width:30%;
+    /* transition brings the container into the page in a drag fashion*/
+/*-60% left is where the container starts so that it is not visible on the opening pae*/
+/* z-index means that the containers are in front of the background image so that they are visible*/    
+}
+
+#Australian img{
+    width: 100%;
+    height:100%;
+    
+}
+
+button{
+    color: black;
+    position: absolute;
+    z-index: 9;
+}
+
+#btn2{
+    position:absolute;
+    left:10%;
+}

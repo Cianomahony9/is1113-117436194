@@ -20,7 +20,7 @@
         <form method="POST" action="ebus2.php">
             
             <label for "gmail">
-             <input type="radio" id="gmail" name "product" onclick="disablebtnProceed()"/>
+             <input type="radio" id="gmail" name="product" onclick="disablebtnProceed()"/>
              gmail @ $400
             </label>
             
