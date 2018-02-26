@@ -82,11 +82,12 @@ button{
     left:10%;
 }
 
-#btnNext{
+a{
     z-index:9;
     color: white;
     position:absolute;
-    top:900%;
+    top:90%;
+    left:90%;
     
     
     
