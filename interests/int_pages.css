@@ -19,19 +19,49 @@
 
 .section{
     text-align: center;
-    color: white;
+    color:white;
 }
 
-.cloud {
+
+ 
+
+
+
+
+#section4{
     background: url("http://teldesigns.com/wp-content/uploads/2015/10/cloud-services-icon.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
+    }
+    
+#section5{
+    background: url("https://cdn-images-1.medium.com/max/1600/0*sKgim8LzaU8z1OML.");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+
+}
+
+#section6{
+    background: url("https://botwiki.org/content/tutorials/making-what_capital/images/cloud9-logo.png");
+    background-size: cover;
+    background-color: black;
+
     
 }
 
+#section7{
+    background:url("http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png");
+background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
 
-#cloudinfo{
-    position: absolute;
-    top:2%;
-    
+}
+
+#section8{
+    background: url("https://www.xenonstack.com/static/images/icon-cloud-aws.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
 }

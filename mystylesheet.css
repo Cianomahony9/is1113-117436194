@@ -118,7 +118,7 @@ background-position: center;
 
 
 .Workpic{
-background: url("https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51a9aa4dd828bf5d50fcd8154dc405b8&auto=format&fit=crop&w=750&q=80");
+background: url("https://images.unsplash.com/photo-1488027824073-11bf8619c8c1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6cba714e7eff2b9f5c948bb62f183b3b&auto=format&fit=crop&w=1487&q=80");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -128,4 +128,9 @@ background: url("https://images.unsplash.com/photo-1485965120184-e220f721d03e?ix
 
 .mainheading{
     color: blue
+}
+
+.Cv1text{
+    color:white;
+    position: absolute;
 }
