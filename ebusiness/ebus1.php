@@ -8,10 +8,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_cal.js"></script>
         
+        <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
     </head>
     
-    <body>
+    <body class="ebustext">
+        
         
         <h4>Select a Product</h4>
         
@@ -91,7 +93,7 @@
        
         <button onclick="calcSub()">Calculate Cost</button>
         <a role="button" href="ebus1.php">Clear Choice</a>
-       
+      
         </body>
     
     
