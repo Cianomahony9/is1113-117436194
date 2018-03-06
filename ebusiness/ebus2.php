@@ -19,6 +19,30 @@ session_start();
         
         <form action="ebus3.php" method="POST">
             
+            
+            
+            <!--textboxes for customer to enter details to be shown on receipt page-->
+        
+        <h4>Please enter your payment details.</h4>
+        
+            <br />
+            
+            <form method = "POST" action = "Ebus3.php">
+                
+                <label for="Name">Full Name: </label>
+                    <br/>
+                    <input type="text" name="firstname" id="user_name" maxlength="20" placeholder="Firstname" class="name">
+                    <input type="text" name="lastname"id="last_name" maxlength="20" placeholder="Surname" class="name">
+                    <br/>
+                    <br/>
+                    <label for="email">Email:</label>
+                    <br/>
+                    <input type="text" name="email" id="user_Email" maxlength="30" placeholder="Your Email..">
+                    <br/>
+                    <br/>
+            
+            
+            
              <label for="user_pin">PIN</label>
             <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
             
@@ -29,10 +53,10 @@ session_start();
         <br/>
         <button onclick="validateDetails()">Validate</button>
         
-        
+    
         <?php
         //Start the Session
-        $__SESSION["total"] = $_POST["total"];
+        $_SESSION["total"] = $_POST["total"];
         ?>
         
         
