@@ -1,5 +1,4 @@
-
-    <!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
     <head>
         <title>Select Product</title>
@@ -12,9 +11,9 @@
         
     </head>
     
-    <body class="ebustext">
+    <body background ="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/cloud-circle-blue-512.png">
         
-        
+      <div class="ebustext"> 
         <h4>Select a Product</h4>
         
         <br/>
@@ -91,9 +90,11 @@
         
        <br/>
        
+       
+       
         <button onclick="calcSub()">Calculate Cost</button>
         <a role="button" href="ebus1.php">Clear Choice</a>
-      
+      </div>
         </body>
     
     

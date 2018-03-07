@@ -13,8 +13,11 @@ session_start();
          <!--jquery-->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <script ="text/javascript" src="ebus2_validator.js"></script>
+            
+            <link rel="stylesheet" href="ebus.css" type="text/css"/>
          </head>
-    <body>
+    <body background ="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/cloud-circle-blue-512.png">
+        <div class="ebustext">
         <h4>Please Enter your Payment Details</h4>
         
         <form action="ebus3.php" method="POST">
@@ -59,7 +62,7 @@ session_start();
         $_SESSION["total"] = $_POST["total"];
         ?>
         
-        
+        </div>
        
     </body>
 </html>
