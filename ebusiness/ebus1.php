@@ -21,7 +21,7 @@
         
         <form method="POST" action="ebus2.php">
             
-            <label for "gmail">
+            <label for="gmail">
              <input type="radio" id="gmail" name="product" onclick="disablebtnProceed()"/>
              gmail @ $400
             </label>
@@ -35,7 +35,7 @@
             
             <br/>
             
-            <label for "aws">
+            <label for="aws">
                 <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
                 AWS @ 300$
             </label>

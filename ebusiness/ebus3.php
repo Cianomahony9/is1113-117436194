@@ -1,7 +1,7 @@
 <?php
 session_start();
 ?>
-<!DCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>RECEIPT</title>
